@@ -1,5 +1,8 @@
 function countOfAllBooleansAndStrings(arr) {
-  // Insert code here;
+  let booleansAndStringsCount = arr.filter(
+    (value) => (value === true || value === false) || typeof value === "string"
+  ).length;
+  return booleansAndStringsCount;
 }
 
 // Do not edit this line;

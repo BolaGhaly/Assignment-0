@@ -1,5 +1,6 @@
 function sumOfAllOddNumbers(nums) {
-  // Insert code here;
+    let countOfAllOddNumbers = nums.filter((value) => value % 2 !== 0).length;
+    return countOfAllOddNumbers;
 }
 
 // Do not edit this line;

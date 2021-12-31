@@ -1,5 +1,6 @@
 function countOfAllBooleans(arr) {
-  // Insert code here;
+  let booleansCount = arr.filter(value => value === true || value === false).length;
+  return booleansCount;
 }
 
 // Do not edit this line;

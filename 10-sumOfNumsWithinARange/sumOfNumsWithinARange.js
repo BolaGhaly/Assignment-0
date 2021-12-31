@@ -1,5 +1,6 @@
 function sumOfNumsWithinARange(nums, start, end) {
-  // Insert code here;
+  let countOfNumsWithinARange = nums.filter((value) => (start <= value && value <= end)).length;
+  return countOfNumsWithinARange;
 }
 
 // Do not edit this line;

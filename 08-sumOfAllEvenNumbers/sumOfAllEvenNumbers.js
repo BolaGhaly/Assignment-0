@@ -1,5 +1,6 @@
 function sumOfAllEvenNumbers(nums) {
-  // Insert code here;
+  let countOfAllEvenNumbers = nums.filter((value) => value % 2 === 0).length;
+  return countOfAllEvenNumbers;
 }
 
 // Do not edit this line;
