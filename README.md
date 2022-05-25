@@ -1,4 +1,4 @@
-# TTP-Assignment-0 (JS-Unit-Testing)
+# TTP-Assignment-0 (JS Unit Testing)
 
 * 00-greetFriend
 * 01-titleCaseEdit
