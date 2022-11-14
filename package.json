@@ -39,7 +39,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "faker": "^4.1.0",
-    "mocha": "^7.1.2",
+    "mocha": "^10.1.0",
     "moment": "^2.29.2",
     "sinon": "^9.0.2"
   }
